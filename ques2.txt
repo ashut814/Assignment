@@ -1,0 +1,22 @@
+////////////////////////// errors and problem in code
+
+1) WrappedListComponent.propTypes = {
+items: PropTypes.array(PropTypes.shapeOf({
+ text: PropTypes.string.isRequired,
+ })),
+};
+In this Proptypes.array(Proptypes.shapeof() is creating the error.
+
+2)
+Second error I have faced that is we are using maps on items so it becomes 
+necessary to check that map is not empty.
+
+3)
+Third and last problem I found in this is -> 
+const [setSelectedIndex, selectedIndex] = useState();
+this was original code =>
+here the setter and state are replaced the general format to declare a state is like 
+this =>
+const[stateValue, stateValueSetter] = useState(initial value);
+But in original code setter is written before and state later that’s why it caused 
+error.

@@ -1,0 +1,11 @@
+React's components list creation work => 
+In order to create lists of pieces, students must use the character characteristic 
+"key," as specified in the React documentation. To determine whether items in a list 
+had already been modified, added, or destroyed, React need so many keys. An individual 
+identifier is required for each object. The id about an entity usually works nicely for all of that.
+
+Collection but instead attributes presume  =>
+
+Whenever making lists of components in Javascript, users must use a special word attribute called 
+"key". React uses keys to indicate whether additional burdens have been modified, removed, or altered. 
+Or, to put it another way, designers may say that keywords are applied to identify the components in collections.
